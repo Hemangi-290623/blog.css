@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    *{
+    margin : 0px;
+    padding: 0%;
+box-sizing: border-box;
+}
+ H2{
+   /* margin-top: 10px; */
+    text-align: center;
+    /* padding-top: 10px;  */
+}
+#search{
+    margin-top: -10px;
+}
+.container{
+    margin: 0 auto;
+    width: 600px;
+    border: 1 px solid black;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(2,1FR);
+    grid-template-rows: repeat(4,1FR);
+    grid-template-areas: 
+    "  hd hd"
+    "mn1 mn2"
+    "mn3 mn4"
+    "mn5 mn6";
+    grid-gap: 75px;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+
+}
+#header{
+    word-spacing: 80rem;
+    /* text-align: center; */
+    height: 70px;
+    width: 100px;
+}
+
+    
+/*.grid{
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(2,1FR);
+    grid-template-rows: repeat(4,1FR);
+    grid-template-areas: 
+    "  hd hd"
+    "mn1 mn2"
+    "mn3 mn4"
+    "mn5 mn6";
+    grid-gap: 10px;
+} */
+.box{
+ 
+    height: 250px;
+    width: 450px;
+
+justify-content: center;
+align-content: center;
+box-shadow: gray;
+
+}
+
+.box:hover{
+    transform:  scale(1.03);
+    transition: 0.5s;
+    filter: box-shadow(0 0 10px #333);
+    transition: 0.3s;
+}
+#header{
+    width: 100%;
+    grid-area: hd;
+}
+#main1{
+    border: 2px solid grey;
+}
+#main6{
+    border: 2px solid grey;
+}
+#main5{
+    border: 2px solid grey;
+}
+#main4{
+    border: 2px solid grey;
+}
+#main3{
+    border: 2px solid grey;
+}
+#main2{
+    border: 2px solid grey;
+}
+#hh2{
+    text-align: left;
+}            
+.fr{
+    color: blue;
+}
+.sr{
+    color: green;
+}
+h3{
+    color: cornflowerblue;
+}
+#search{
+    text-align: left;
+}
+#subs{
+    align-items: end;
+}
+
+    </style>
+</head>
+<br>
+  
+   
+        <div class="box" id="header">
+           <H2><u>BLOG-TITLE</H2></u>
+            
+           
+<img src="https://cdn2.vectorstock.com/i/1000x1000/30/76/search-icon-vector-6093076.jpg" width="35px" height="35px" id="search">
+<a href="https://www.youtube.com/@LoveBabbar" id="subs">SUBSCRIBE</a>
+        </div>
+</br>
+</br>
+</br>
+</br>
+
+        <div class="container">
+        <div class="box" id="main1">
+            <h3 class="fr" id="hh1">WORLD</h3>
+       <br/>
+       <h2 id="hh2">Example Blog Post</h2>
+       <h4>July 6</h4><br/>
+       <p>This card represents an example blog post</p>
+       <br><br><br><br>
+       <h3><a href="https://6p9dd5.csb.app/" target="_blank">continue reading</a> </h3>
+             </div>
+        <div class="box" id="main2"> 
+            <h3  class = "sr" id="hh2">Design</h3>
+            <br/>
+            <h2 id="hh2">Post title</h2>
+            <h4>July 6</h4><br/>
+            <p>This is a wider card with supporting text below as a <br> natural lead-in to additional content.</p>
+            <br><br><br><br>
+            <h3><a href="https://6p9dd5.csb.app/"target="blank">continue reading</a> </h3>
+           
+        </div>
+        <div class="box" id="main3">
+            <h3 class="fr" id="hh1">WORLD</h3>
+            <br/>
+            <h2 id="hh2">Example Blog Post</h2>
+            <h4>July 6</h4><br/>
+            <p>This card represents an example blog post</p>
+            <br><br><br><br>
+            <h3><a href="https://6p9dd5.csb.app/" target="_blank">continue reading</a> </h3>
+            </div>
+        <div class="box" id="main4">
+            <h3   class = "sr" id="hh2">Design</h3>
+            <br/>
+            <h2 id="hh2">Post title</h2>
+            <h4>July 6</h4><br/>
+            <p>This is a wider card with supporting text below as a <br> natural lead-in to additional content.</p>
+            <br><br><br><br>
+            <h3><a href="https://6p9dd5.csb.app/"target="blank">continue reading</a> </h3>
+        </div>
+        <div class="box" id="main5">
+            <h3 class="fr" id="hh1">WORLD</h3>
+            <br/>
+            <h2 id="hh2">Example Blog Post</h2>
+            <h4>July 6</h4><br/>
+            <p>This card represents an example blog post</p>
+            <br><br><br><br>
+            <h3><a href="https://6p9dd5.csb.app/" target="_blank">continue reading</a> </h3>
+        </div>
+        <div class="box" id="main6">
+            <h3   class = "sr" id="hh2">Design</h3>
+            <br/>
+            <h2 id="hh2">Post title</h2>
+            <h4>July 6</h4><br/>
+            <p>This is a wider card with supporting text below as a <br> natural lead-in to additional content.</p>
+            <br><br><br><br>
+            <h3><a href="https://6p9dd5.csb.app/" target="_blank">continue reading</a> </h3>
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
