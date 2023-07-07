@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    .container{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: grid; 
+    grid-template-columns:60% 35%;
+    /* grid-template-areas:
+    ""; */
+    column-gap: 5%;
+    width: 80%;
+}
+#heading{
+    word-spacing: 1300px;
+}
+h2{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    font-size: xx-large;
+}
+.box{
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    height:700px;
+
+}
+.box2{
+    /* border: 1px solid black; */
+    display: grid;
+}
+#extra{
+    width: 100vw;
+}
+.sub{
+    border: 1px solid grey;
+    height: 10%;
+}
+.ysp{
+    border: rgb(102,102,51);
+ border-radius: 10px ;
+    background-color: white;
+    color: gray;
+}
+.ysp:hover{
+    
+    border: 1px solid grey;
+    color: blue;
+    scale: 1.03;
+}
+.box3{
+    background-color:rgb(224, 224, 209);
+    height: 40%;
+    
+}
+p{
+    font-style: normal;
+    word-spacing: 4px;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+    </style>
+</head>
+<body>
+
+    <div class="header" id="heading">
+        <H2><u>BLOG-TITLE</H2></u>
+            
+           
+        <img src="https://cdn2.vectorstock.com/i/1000x1000/30/76/search-icon-vector-6093076.jpg" width="35px" height="35px" id="search">
+        <a href="https://www.youtube.com/@LoveBabbar"target="_blank">subscribe</a>
+            
+    </div>
+    <div class="container">
+    <div class="box" id = " main">
+        <h1> Sample Blog Post</h1>
+        <h5>July 6 , 2023 by <a href="https://www.instagram.com/p/Ct-89Sop1K9/?igshid=MTc4MmM1YmI2Ng%3D%3D" target="_blank">Hemangi</a></h5>
+        <p>Welcome to our blog, where we explore the beauty and significance of sustainable travel. 
+            In this post, we embark on a virtual journey towards eco-conscious adventures. 
+            </p>
+            <hr>
+            <p>Welcome to our blog, where we explore the beauty and significance of sustainable travel. In this post, we embark on a virtual journey towards eco-conscious adventures. Join us as we delve into the transformative power of sustainable tourism, and discover how we can all contribute to a greener and more responsible approach to exploring the world.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Aliquid tenetur corrupti eius earum voluptates tempora nam deserunt sit, rerum modi veritatis nemo quis pariatur! Odio iusto ipsum nihil illum deserunt?</p>
+                 <div class="sub">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem porro iure exercitationem aliquam. Veniam, ex? Odit, similique saepe corrupti ipsam commodi, mollitia libero sint assumenda labore amet officiis est deserunt.
+                 </div>
+                 <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita amet, reprehenderit deleniti vitae debitis eius, nisi tempore illo quo illum quas nam, voluptatum enim beatae! Dolores omnis odit, corrupti incidunt debitis eius quia, a amet eveniet necessitatibus vitae animi laborum.
+                 </p>
+<h1>Heading</h1>
+<p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, non quasi temporibus odio tenetur assumenda, corrupti praesentium quibusdam, recusandae amet adipisci! Sunt modi cum eveniet molestiae impedit natus neque porro in odit mollitia, quibusdam praesentium nihil qui.
+     Eligendi dolorem quos laudantium saepe consequatur voluptatibus culpa eveniet labore, incidunt nulla fuga.
+</p>
+<h1> Sub Heading</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati excepturi beatae, porro minus eaque reprehenderit, consequatur dolore ratione saepe quod magni. Accusamus, eum. Id sequi omnis asperiores eum laboriosam illum.</p>
+<hr>
+<p>Ecample: code block</p>
+<hr>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime minima enim dolor nemo perferendis asperiores velit repellat natus eius ullam facilis blanditiis optio minus saepe commodi id, doloremque et dolore.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui neque blanditiis tempora? Debitis natus aspernatur earum accusamus sapiente laboriosam fugiat enim commodi, mollitia nisi ut assumenda dicta fugit cumque dolorem nulla illum. Fuga in laudantium hic quod praesentium quo veritatis quia? Quam quasi laborum aliquam praesentium recusandae ad, quia assumenda?
+</p>
+<h1>
+    Sub Heading
+</h1>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, illum eos magni voluptatem blanditiis minus sed. Aspernatur quos fuga eos perferendis ipsam dolorum sed, incidunt dolor nulla quam. 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod nisi facilis. Eveniet debitis rerum, officia laboriosam sint necessitatibus sunt consequuntur facere delectus obcaecati, quod, minus nam molestias eum qui iste voluptas veniam corporis consectetur excepturi provident nobis r
+    em! Incidunt dolorum saepe praesentium voluptatem tempore numquam esse dolores unde? Repellendus?Tenetur, minus.</p>
+    <div id="lists">
+        <ul>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta autem sapiente incidunt tempora, nobis totam corporis magni necessitatibus architecto! Voluptatum provident repudiandae excepturi soluta, perspiciatis cumque possimus ut reprehenderit placeat?</li>
+            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium officia delectus cupiditate sequi corporis quidem sint amet id perferendis odit voluptates aliquam non rerum temporibus autem, nulla soluta et aspernatur!</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quas numquam eos quod eius sit veritatis repudiandae reiciendis. Repudiandae veniam eos dignissimos qui commodi amet quia quaerat. Exercitationem, pariatur quos.</li>
+        </ul>
+<br>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, sed porro! Aliquid culpa, itaque quaerat illo facere atque porro reprehenderit eaque doloremque, reiciendis voluptatum consectetur doloribus, eveniet accusantium consequuntur! Culpa.</p>
+<ol>
+    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut nisi voluptatum nulla quos maxime? Expedita asperiores obcaecati aut quas repellendus!</li>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquam quasi voluptatibus .</li>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, harum.</li>
+</ol>
+    </div>
+    <br>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem hic saepe possimus quidem ducimus incidunt recusandae nisi animi quibusdam libero vero quos dignissimos, optio excepturi, ipsa quisquam numquam alias officiis.
+    </p>
+<button class = "ysp">order post</button>               <button class="ysp">message post</button>
+
+
+
+
+    </div>
+    <div class="box2"id="side">
+      <div class="box3"> <h1>About</h1> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis id doloribus, qui laudantium consequuntur dicta. Autem laboriosam nostrum maxime id tenetur, adipisci sapiente. Suscipit perferendis porro quam totam quibusdam sequi explicabo ab aliquam, numquam consectetur sed iste facilis maiores tempore at in autem ad, deserunt sint molestiae impedit? Magni, soluta!
+        </p><BR>
+        <h1>
+            ARCHIVES
+        </h1>
+        <div><ul><A href="https://traveltriangle.com/blog/places-to-visit-in-march-in-india/" target="_blank">March</A><br>
+            <A href="https://traveltriangle.com/blog/places-to-visit-in-india-in-may/" target="_blank">May</A><br>
+            
+            <a href="https://traveltriangle.com/blog/places-to-visit-in-june-in-india/" target="_blank">june</a><br>
+            
+                <a href="https://traveltriangle.com/blog/places-to-visit-in-july-in-india/"target="_blank">July</a><br>
+            </ul>
+   
+
+</div> 
+<h1>Elsewhere</h1>
+<div><ul>
+    
+<a href="https://www.makemytrip.com/" target="_blank">travel website 1</a> <br>
+<a href="https://www.goibibo.com/?utm_source=google&utm_medium=cpc&utm_campaign=DF-Brand-EM&utm_adgroup=Only+Goibibo&utm_term=%21SEM%21DF%21G%21Brand%21RSA%21108599293%216504095653%21602838584772%21e%21goibibo%21c%21&gad=1&gclid=CjwKCAjwzJmlBhBBEiwAEJyLu7T9gBtRUhpAETyTR3k3bZ_x9pHu9IIz69Kn4LGxzZxQAH6MzS-SHhoC9b4QAvD_BwE" target="_blank">travel website 2</a><br>
+<a href="https://www.yatra.com/" target="_blank">travel website 3</a>
+</ul>
+</div>
+   </div>
+
+
+        
+   
+    
+    <!-- <div class="box2"id="extra">attributes</div> -->
+</div>
+
+    
+</body>
+</html>
